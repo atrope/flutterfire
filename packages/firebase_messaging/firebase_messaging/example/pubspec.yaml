@@ -30,6 +30,9 @@ dependency_overrides:
     path: ../../firebase_messaging_web
   # Override for `flutter_local_notifications`:
   plugin_platform_interface: ^2.0.0
-
+  social_share:
+    git:
+      url: https://github.com/SuaMusica/social_share.git
+      ref: feature/nullSafety
 flutter:
   uses-material-design: true
